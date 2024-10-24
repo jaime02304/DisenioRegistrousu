@@ -60,33 +60,35 @@ input{
     border:.5px solid white ;
     border-radius: 10px;
     margin: 10px 0px;
-    color: white;
-    background: none;
+    color: black;
     height: 32px;
     width: 250px;
 }
 
 input::placeholder{
-    color: white;
+    color: black;
 }
 
-input::placeholder:focus{
-color: black;
-background-color: white;
-border: .5px solid black;
+textarea::placeholder{
+    color: black;
 }
 
 textarea {
     border:.5px solid white ;
     border-radius: 10px;
     margin: 10px 0px;
-    background-color: whitesmoke;
-    color: white;
+    color: black;
     width: 250px;
 }
 #imagen{
     margin: 10px 20px;
     border: none;
+}
+input[type="file"]{
+    background:none;
+    color: white;
+    border: .5px solid white;
+    margin-left: 10px;
 }
 input[type="submit"]{
     background:none;
